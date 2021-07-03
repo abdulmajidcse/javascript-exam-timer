@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Exam Timer in JavaScript</title>
+
+    <style>
+        div.app {
+            text-align: center;
+            position: absolute;
+            top: 30%;
+            left: 35%;
+        }
+        div.timer {
+            font-size: 40px;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="app">
+        <h2>Online Exam (Time Left):</h2>
+        <div class="timer">
+            <span id="hour">0</span> : <span id="minute">0</span> : <span id="second">0</span>
+        </div>
+    </div>
+
+    <!-- load timer.js -->
+    <script type="text/javascript" src="./timer.js"></script>
+</body>
+</html>
